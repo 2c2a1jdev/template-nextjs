@@ -40,7 +40,10 @@
   text-decoration: none;
 }
 
-.title a:hover,
+.title a:hover{
+  text-decoration: none;
+  
+}
 .title a:focus,
 .title a:active {
   text-decoration: underline;
@@ -112,6 +115,10 @@
 
 .logo {
   height: 1em;
+}
+
+.perfilImg{
+  border-radius: 50px;
 }
 
 @media (max-width: 600px) {
